@@ -1,0 +1,28 @@
+{
+  "name": "sailsjs-vue-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for SailJs with Vue 3 as its client side rendering",
+  "main": "server/app.js",
+  "scripts": {
+    "install": "cd server && npm i && cd ../client && npm i && cd ..",
+    "dev": "cd client && npm run build && cd ../server && NODE_ENV=development node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardyjoysan/sailsjs-vue-boilerplate.git"
+  },
+  "keywords": [
+    "sailsjs",
+    "vue3",
+    "vuejs",
+    "boilerplate",
+    "nodejs"
+  ],
+  "author": "Hardy Joyson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hardyjoysan/sailsjs-vue-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hardyjoysan/sailsjs-vue-boilerplate#readme"
+}

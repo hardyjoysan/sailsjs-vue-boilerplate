@@ -19,17 +19,12 @@
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development node app.js",
     "test": "npm run lint && npm run custom-tests && echo 'Done.'",
     "lint": "./node_modules/eslint/bin/eslint.js . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
     "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
   },
   "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hardii/server.git"
-  },
-  "author": "hardii",
-  "license": "",
   "engines": {
     "node": "^14.15"
   }
