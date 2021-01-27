@@ -35,3 +35,20 @@ $ npm run dev
 ```
 
 After that, open [localhost:1337](http://localhost:1337) in your browser.
+
+Also you could run client & server separately in case it requires.
+
+```bash
+$ npm run server
+$ npm run client
+```
+
+Open server in [localhost:1337](http://localhost:1337) and client in [localhost:8080](http://localhost:8080)
+
+### Production
+
+```bash
+$ npm run prod
+```
+
+After that, open [localhost:1337](http://localhost:1337) in your browser.
