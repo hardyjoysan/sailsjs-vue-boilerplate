@@ -5,7 +5,10 @@
   "main": "server/app.js",
   "scripts": {
     "install": "cd server && npm i && cd ../client && npm i && cd ..",
+    "prod": "cd client && npm run build && cd ../server && npm run start",
     "dev": "cd client && npm run build && cd ../server && npm run dev",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
